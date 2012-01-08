@@ -24,6 +24,14 @@ const (
 	SIGNAL_STRONG
 )
 
+const (
+	SPEED_FASTEST = 1
+	SPEED_FAST = 3
+	SPEED_MID = 5
+	SPEED_SLOW = 7
+	SPEED_SLOWEST = 10
+)
+
 type Robot struct {
 	instance *C.robot_if_t
 }
